@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/48da599f77.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <style>
+        .text_hexschool{
+            color: #00cc99;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00cc99;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fa fa-diamond" aria-hidden="true"></i>  
+            六角部落格</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- 麵包屑 -->
+      <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#" class="text_hexschool">Home</a></li>
+              <li class="breadcrumb-item"><a href="#" class="text_hexschool">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+    
+    <h1 class="text_hexschool">Bootstrap 4 繁體中文手冊</h1>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="my-2 text-secondary">
+                <small>
+                    <span class="mr-3"><i class="fa fa-user-o" aria-hidden="true"></i>卡斯伯</span>
+                    <span class="mr-3">2017/08/13</span>
+                    <span><i class="fa fa-tag" aria-hidden="true"></i>event</span>
+                </small>               
+            </div>
+            <p>Bootstrap 是目前最主流的 CSS 框架，由於他包含了大量的元件以及具有良好的架構，在實際運用及擴增也都是非常容易，也越來越多開發者協同一起開發 (Github 上有超過 10 萬個 Star)。如今第四版 Beta (Bootstrap 4 Beta) 也在 2017/8/10 釋出，我們先來看看他有什麼樣的改變吧！</p>
+            <h2 class="text-secondary">Bootstrap 4 的特色</h2>
+            <p>Bootstrap 4 Beta 經過了 Alpha 六個版本的歷練，重新翻修了大量元件以及加入許多新的元素，如果你沒有用過 Alpha 的任何版本，提供了以下摘要讓您快速了解第四版有什麼新新聞：</p>
+            <ul>
+                <li>從 Less 到 Sass: 自從 Sass 不在只能使用 Ruby 編譯後，Libsass 有更快的編譯效率，加上 Sass 本身具有龐大的開發社群，所以 Bootstrap 從 Less 改用 Sass 囉！</li>
+                <li>Flexbox 以及強化的網格系統: 網格系統不在使用 <code>float</code> ，進而改用 <code>flexbox</code>，讓行動裝置及桌面裝置有更彈性的排版方法。</li>
+            </ul>
+            <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/hexschool-api.appspot.com/o/blog%2F2017%2F08%2Fbootstrap4.png?alt=media&token=0b014ac6-b99b-46e7-8336-3fbfda1da3c2" alt="">
+        </div>
+
+        <!-- 右半邊的tags -->
+        <div class="col-md-4">
+            <h2 class="text-secondary">Tags</h2>
+            <a href="#"><span class="badge bg-info text-light"><i class="fa fa-tag" aria-hidden="true"></i>scss</span></a>
+            <a href="#"><span class="badge bg-info text-light"><i class="fa fa-tag" aria-hidden="true"></i>css</span></a>   
+        </div>
+    </div>
+          
+    </div>
+
+
+
+
+
+
+
+
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"crossorigin="anonymous"></script>
+</body>
+</html>
